@@ -1,0 +1,17 @@
+query product($slug: String) {
+    product (slug: $slug) {
+        recommendations {
+            similars {
+                link
+                productName
+                items {
+                    images {
+                        imageLabel
+                        imageText
+                        imageUrl
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.productLink {
+    margin-right: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 0.5rem;
+    border: 1px solid #0f3e99;
+}
+
+.productImage {
+    padding: 10px;
+    max-width: 85px;
+}

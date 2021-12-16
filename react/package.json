@@ -1,0 +1,35 @@
+{
+  "name": "CHANGE_ME",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "vtex-test-tools test"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/styled-components": "^5.1.15",
+    "apollo-client": "^2.6.8",
+    "react": "^16.12.0",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.12.0",
+    "react-hook-form": "^7.19.5",
+    "react-intl": "^3.12.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@apollo/react-testing": "^3.1.3",
+    "@types/classnames": "^2.2.9",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.8",
+    "@types/react": "^16.9.31",
+    "@vtex/test-tools": "^3.3.2",
+    "@vtex/tsconfig": "^0.4.4",
+    "apollo-cache-inmemory": "^1.6.5",
+    "graphql": "^14.6.0",
+    "typescript": "3.9.7",
+    "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@1.0.0/public/@types/vtex.css-handles",
+    "vtex.native-types": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.native-types@0.7.5/public/@types/vtex.native-types",
+    "vtex.product-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context",
+    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.3/public/@types/vtex.render-runtime",
+    "vtex.search-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.47.2/public/@types/vtex.search-graphql"
+  }
+}
